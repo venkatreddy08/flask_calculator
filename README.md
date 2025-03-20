@@ -16,7 +16,7 @@ A simple and responsive **Flask-based calculator** for performing **Addition, Su
 
 ```sh
 # 1️⃣ Clone the repository  
-git clone https://github.com/YOUR-USERNAME/flask_calculator.git  
+git clone https://github.com/venkatreddy08/flask_calculator.git
 cd flask_calculator  
 
 # 2️⃣ Create and activate a virtual environment  
