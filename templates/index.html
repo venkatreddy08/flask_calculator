@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Flask Calculator</h1>
+        <p>Select an operation:</p>
+        <div class="buttons">
+            <a href="/add" class="btn add">Addition</a>
+            <a href="/sub" class="btn sub">Subtraction</a>
+            <a href="/mult" class="btn mult">Multiplication</a>
+            <a href="/div" class="btn div">Division</a>
+        </div>
+    </div>
+</body>
+</html>

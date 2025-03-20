@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ operation_name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ operation_name }}</h1>
+        <form method="post">
+            <input type="number" name="num1" required placeholder="Enter first number">
+            <input type="number" name="num2" required placeholder="Enter second number">
+            <button type="submit" class="btn {{ operation }}">{{ operation_name }}</button>
+        </form>
+        {% if result is not none %}
+            <p class="result">Result: {{ result }}</p>
+        {% endif %}
+        <a href="/" class="back-btn">Back to Home</a>
+    </div>
+</body>
+</html>
