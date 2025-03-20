@@ -5,44 +5,34 @@ A simple and responsive **Flask-based calculator** for performing **Addition, Su
 ---
 
 ## 🚀 Features  
-✅ **Beautiful UI** – Clean and user-friendly design  
-✅ **Responsive Design** – Works on all devices  
-✅ **Different Colors** – Each operation has a unique color  
-✅ **Lightweight & Fast** – Built using Flask  
+✔️ **Beautiful UI** – Clean and user-friendly design  
+✔️ **Responsive Design** – Works on all devices  
+✔️ **Different Colors** – Each operation has a unique color  
+✔️ **Lightweight & Fast** – Built using Flask  
 
 ---
 
-## 🖥️ Installation  
+## 🛠 Installation & Setup  
 
-### 1️⃣ **Clone the Repository**  
 ```sh
-git clone https://github.com/YOUR-USERNAME/flask_calculator.git
-cd flask_calculator
+# 1️⃣ Clone the repository  
+git clone https://github.com/YOUR-USERNAME/flask_calculator.git  
+cd flask_calculator  
 
-# Windows (PowerShell)
-python -m venv venv
-venv\Scripts\activate
+# 2️⃣ Create and activate a virtual environment  
+# Windows  
+python -m venv venv  
+venv\Scripts\activate  
 
-# Mac/Linux
-python3 -m venv venv
-source venv/bin/activate
+# Mac/Linux  
+python3 -m venv venv  
+source venv/bin/activate  
 
+# 3️⃣ Install dependencies  
+pip install -r requirements.txt  
 
-2️⃣ Create Virtual Environment & Install Dependencies
+# 4️⃣ Run the Flask app  
+python app.py  
 
-# Windows (PowerShell)
-python -m venv venv
-venv\Scripts\activate
-
-# Mac/Linux
-python3 -m venv venv
-source venv/bin/activate
-
-pip install -r requirements.txt
-
-
-3️⃣ Run the Flask App
-
-python app.py
-
-🔗 Open in your browser: http://127.0.0.1:5000/ 🚀
+# 5️⃣ Open in your browser  
+http://127.0.0.1:5000/
